@@ -1,5 +1,5 @@
 {
-  "name": "distanation-calc",
+  "name": "distance-calc",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -10,30 +10,36 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FreshValya/distanation-calc.git"
+    "url": "git+https://github.com/FreshValya/distance-calc.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FreshValya/distanation-calc/issues"
+    "url": "https://github.com/FreshValya/distance-calc/issues"
   },
-  "homepage": "https://github.com/FreshValya/distanation-calc#readme",
+  "homepage": "https://github.com/FreshValya/distance-calc#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.13",
+    "@mui/x-date-pickers": "^5.0.7",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
+    "dayjs": "^1.11.6",
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",

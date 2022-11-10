@@ -14,6 +14,7 @@ module.exports = {
   devtool: 'eval-source-map',
   devServer: {
     hot: true,
+    historyApiFallback: true,
   },
 
   resolve: {

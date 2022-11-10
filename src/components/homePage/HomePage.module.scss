@@ -1,0 +1,27 @@
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+
+      & > div {
+        margin-bottom: 15px;
+      }
+    }
+
+    & > button {
+      align-self: flex-end;
+    }
+  }
+}
