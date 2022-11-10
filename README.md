@@ -2,7 +2,7 @@
 
 Plan your trip
 
-demo - https://distance-calc.herokuapp.com
+demo - https://distnace-calc.herokuapp.com/
 
 ## Preparation
 
