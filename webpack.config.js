@@ -6,7 +6,6 @@ module.exports = {
   mode: 'development',
 
   output: {
-    publicPath: '/',
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
   },
